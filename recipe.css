@@ -8,7 +8,7 @@ body{
     width:100%;
 }
 .entire-text{
-    margin:32px;
+    margin:16px;
 }
 h1{
     font-family: 'Young Serif', serif;
@@ -59,4 +59,19 @@ li::marker{
 .value{
     color:#854632;
     font-weight: 600;
+}
+@media(min-width:768px){
+    body{
+        background-color: #ffe3c9;
+    }
+    .main{
+        max-width:500px;
+        margin:48px auto;
+        background-color: #ffffff;
+        border-radius: 16px;
+        padding:32px;
+    }
+    .omlette-img{
+        border-radius:16px;
+    }
 }
