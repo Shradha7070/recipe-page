@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body{
+    margin:0px;
+    font-family: 'Outfit', sans-serif;
+}
+.omlette-img{
+    width:100%;
+}
+.entire-text{
+    margin:32px;
+}
+h1{
+    font-family: 'Young Serif', serif;
+    color: #302d2c;
+    font-weight: 400;
+}
+.preparation{
+    background-color:#fff5fa;
+    padding: 10px;
+}
+h5{
+    color:#7b284f;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left:16px
+}
+h3{
+    font-family: 'Young Serif', serif;
+    color:#854632;
+}
+p{
+    color:#5f574e;
+}
+span{
+    color:#5f574e;
+}
+b{
+     color:#5f574e;
+}
+li::marker{
+    color:#854632;
+}
+.nutri{
+    display:flex;
+     margin-left: 32px;
+    width:80%
+}
+.nutri p{
+    width:50%;
+}
+
+.list li{
+    margin-bottom:8px;
+}
+.table hr{
+    margin:0px;
+}
+.value{
+    color:#854632;
+    font-weight: 600;
+}
